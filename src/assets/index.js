@@ -31,6 +31,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import watchcarm from "./watchcharm.png";
 import towermasters from "./towermasters.png";
+import watertracker from "./watertracker.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -65,6 +66,7 @@ export {
   carrent,
   watchcarm,
   towermasters,
+  watertracker,
   jobit,
   tripguide,
 };

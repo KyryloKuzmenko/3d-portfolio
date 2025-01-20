@@ -23,6 +23,7 @@ import {
   carrent,
   watchcarm,
   towermasters,
+  watertracker,
   jobit,
   tripguide,
   threejs,
@@ -133,7 +134,7 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     company_name: "GoIT",
     icon: goit,
     iconBg: "#E6DEDD",
@@ -241,7 +242,8 @@ const projects = [
       },
     ],
     image: watchcarm,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/DenysOvsiienko/105-cyber-solutions-team-project",
   },
   {
     name: "Tower Masters",
@@ -264,28 +266,29 @@ const projects = [
       },
     ],
     image: towermasters,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/lexxus0/TowerMasters",
   },
   {
-    name: "Trip Guide",
+    name: "Water Tracker",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web application for tracking water consumption with a responsive interface, user authentication, progress visualization, and detailed statistics.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "rest api",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: watertracker,
+    source_code_link:
+      "https://github.com/YuriiMakoveichuk/final_project_MobileTeam-",
   },
 ];
 
