@@ -110,7 +110,7 @@ const Works = () => {
           {projects.map((project, index) => (
             <SwiperSlide
               key={`project-${index}`}
-              className="!w-[360px] flex-shrink-0"
+              className="slide"
             >
               <ProjectCard index={index} {...project} />
             </SwiperSlide>

@@ -28,3 +28,11 @@
   background: #ffd27c;
   cursor: grab;
 }
+
+
+/* swiper-overrides.css  (после остальных правил) */
+.slide {
+  width: 100%;           /* занимает всю доступную ширину … */
+  max-width: 360px;      /* … но не растягивается больше 360 px */
+  flex-shrink: 0;        /* не даём Swiper ужимать слайды */
+}
