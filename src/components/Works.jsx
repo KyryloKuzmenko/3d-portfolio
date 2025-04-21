@@ -20,6 +20,8 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link,
+  live_icon,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -38,7 +40,18 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex justify-end gap-2 m-3 card-img_hover">
+            {/* second icon */}
+            <div
+              onClick={() => window.open(live_link, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={live_icon}
+                alt="source code"
+                className="w-10 h-10 rounded-full cursor-pointer object-contain"
+              />
+            </div>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"

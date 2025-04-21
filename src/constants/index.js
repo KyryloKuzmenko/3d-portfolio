@@ -23,10 +23,17 @@ import {
   carrent,
   watchcarm,
   towermasters,
+  catquest,
   watertracker,
   jobit,
   tripguide,
   threejs,
+  catquestimg,
+  watchstore,
+  logomasters,
+  icowatertracker,
+  portfolio,
+  portfolioicon,
 } from "../assets";
 
 export const navLinks = [
@@ -148,10 +155,10 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Confidential",
+    company_name: "Evoplay",
     icon: gamelogo,
     iconBg: "#383E56",
-    date: "October 2024 - December 2024",
+    date: "October 2024 - now",
     points: [
       "Contributed to volunteer projects as part of a team of 2 developers, a designer, and a tech lead, creating landing pages for online games.",
       "Developed interactive and responsive user interfaces using HTML, CSS, and JavaScript, ensuring visual appeal and functionality.",
@@ -164,7 +171,7 @@ const experiences = [
     company_name: "GoIT",
     icon: goit,
     iconBg: "#E6DEDD",
-    date: "October 2024 - Present",
+    date: "October 2024 - January 2025",
     points: [
       "Gained hands-on experience developing and maintaining web applications using JavaScript, React.js, and Node.js during training and personal projects.",
       "Collaborated with teammates, including designers and developers, to create functional and user-friendly web solutions.",
@@ -203,46 +210,53 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A modern portfolio website with a clean interface and smooth animations, showcasing personal info and selected projects.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "html",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link:
+      "https://github.com/YuriiMakoveichuk/project-js-MobileTeam-2",
+    live_link: "https://yuriimakoveichuk.github.io/project-js-MobileTeam-2",
+    live_icon: portfolioicon,
   },
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Cat Quest",
+    description: `Volunteer project: collaborated with a developer and
+    designer to create a responsive landing page,
+    with a user-friendly interface for both mobile
+    and desktop.`,
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "html",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: catquest,
+    source_code_link: "https://github.com/KyryloKuzmenko/stp-7979",
+    live_link: "https://kyrylokuzmenko.github.io/stp-7979",
+    live_icon: catquestimg,
   },
   {
     name: "Watch Store",
@@ -265,6 +279,9 @@ const projects = [
     image: watchcarm,
     source_code_link:
       "https://github.com/DenysOvsiienko/105-cyber-solutions-team-project",
+    live_link:
+      "https://denysovsiienko.github.io/105-cyber-solutions-team-project",
+    live_icon: watchstore,
   },
   {
     name: "Tower Masters",
@@ -288,6 +305,8 @@ const projects = [
     ],
     image: towermasters,
     source_code_link: "https://github.com/lexxus0/TowerMasters",
+    live_link: "https://lexxus0.github.io/TowerMasters",
+    live_icon: logomasters,
   },
   {
     name: "Water Tracker",
@@ -310,6 +329,8 @@ const projects = [
     image: watertracker,
     source_code_link:
       "https://github.com/YuriiMakoveichuk/final_project_MobileTeam-",
+    live_link: "https://final-project-mobile-team.vercel.app",
+    live_icon: icowatertracker,
   },
 ];
 

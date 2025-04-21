@@ -34,6 +34,14 @@ import towermasters from "./towermasters.png";
 import watertracker from "./watertracker.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import catquest from "./catquest.png";
+import portfolio from "./portfolio.png";
+
+import catquestimg from "./catquestimg.png";
+import watchstore from "./watchstore.png";
+import logomasters from "./logomasters.png";
+import icowatertracker from "./icowatertracker.png";
+import portfolioicon from "./portfolioimg.png";
 
 export {
   logo,
@@ -66,7 +74,14 @@ export {
   carrent,
   watchcarm,
   towermasters,
+  catquest,
   watertracker,
   jobit,
   tripguide,
+  catquestimg,
+  watchstore,
+  logomasters,
+  icowatertracker,
+  portfolio,
+  portfolioicon,
 };
