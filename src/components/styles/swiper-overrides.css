@@ -1,0 +1,30 @@
+.custom-swiper {
+  padding-block: 16px;
+  padding-bottom: 40px; 
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.custom-swiper .swiper-wrapper,
+.custom-swiper .swiper-slide {
+  overflow: visible;
+}
+
+/* прогресс‑линия */
+.swiper-scrollbar {
+  height: 6px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+  margin-top: 12px;
+}
+
+/* бегунок */
+.swiper-scrollbar-drag {
+  background: #ffffff;
+  border-radius: 3px;
+  transition: background 0.2s;
+}
+
+.swiper-scrollbar-drag:hover {
+  background: #ffd27c;
+  cursor: grab;
+}

@@ -7,6 +7,12 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Mousewheel, Scrollbar } from "swiper/modules";
+import 'swiper/css';
+import "swiper/css/scrollbar"; 
+import './styles/swiper-overrides.css'
+
 const ProjectCard = ({
   index,
   name,
@@ -87,10 +93,29 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
+      <div className="mt-20">
+        <Swiper
+          modules={[Scrollbar, Mousewheel]}
+          mousewheel={true}
+          freeMode={true}
+          spaceBetween={20}
+          slidesPerView="auto"
+          scrollbar={{
+            draggable: true, 
+            dragSize: 120, 
+            hide: false,
+          }}
+          className="custom-swiper"
+        >
+          {projects.map((project, index) => (
+            <SwiperSlide
+              key={`project-${index}`}
+              className="!w-[360px] flex-shrink-0"
+            >
+              <ProjectCard index={index} {...project} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </>
   );
